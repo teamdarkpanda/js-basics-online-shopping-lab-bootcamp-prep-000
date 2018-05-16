@@ -70,11 +70,9 @@ function removeFromCart(item) {
     if(item == getCart()[i].itemName) {
       getCart().splice(i, 1);
       return getCart();
-    } else {
-        return "That item is not in your cart.";
-      }
+    } 
   }
-  return getCart();
+  return "That item is not in your cart.";
 }
 
 function placeOrder(cardNumber) {
