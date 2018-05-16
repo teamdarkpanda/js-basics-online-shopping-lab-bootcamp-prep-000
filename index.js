@@ -82,7 +82,7 @@ function placeOrder(cardNumber) {
   
   var total = total()
   
-  if(`${cardNumber}` !== undefined) {
+  if(cardNumber !== undefined) {
     cart = []
     return `Your total cost is $${total}, which will be charged to the card ${cardNumber}`
   } else {
