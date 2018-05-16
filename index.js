@@ -64,10 +64,11 @@ function total() {
 function removeFromCart(item) {
   // write your code here
   
+  var itemSearch = `${item}`
   var itemCount = getCart().length
 
   for(var i = 0; i < itemCount; i++) {
-    if(item === cart[i].itemName) {
+    if(itemSearch === cart[i].itemName) {
       cart.splice(i, 1)
     } else {
         return "That item is not in your cart."
