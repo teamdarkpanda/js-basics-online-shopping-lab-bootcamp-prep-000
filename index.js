@@ -82,5 +82,7 @@ function placeOrder(cardNumber) {
   
   if(cardNumber !== undefined) {
     
+  } else {
+    return ""
   }
 }
