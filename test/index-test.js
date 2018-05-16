@@ -121,6 +121,7 @@ describe("total()", function() {
 
 describe("removeFromCart()", function() {
   it("removes the specified item from the cart", function() {
+    console.log("AM I ALIVE?");
     addToCart("vanilla");
     addToCart("watermelon");
     addToCart("yams");
